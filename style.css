@@ -80,3 +80,32 @@ main .our__services {
     font-weight: bold;
     font-size: 48px;
 }
+
+main .faq__information {
+    background-color: #FFFFFF;
+}
+
+.info__title {
+    text-align: right;
+    padding-right: 105px;
+    font-weight: bold;
+    font-size: 96px;
+}
+
+hr {
+    width: 1680px;
+    border: 7px solid black;
+}
+
+.guide {
+    display: inline;
+    font-size: 32px;
+}
+
+.guide li {
+    padding: 0 0 50px 110px;
+}
+
+.guide span {
+    font-weight: bold;
+}
