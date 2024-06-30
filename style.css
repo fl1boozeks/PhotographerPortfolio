@@ -48,7 +48,6 @@ main .slogan {
 }
 
 main .our__services {
-    background-color: #FFFFFF;
     text-align: center;
 }
 
@@ -108,4 +107,26 @@ hr {
 
 .guide span {
     font-weight: bold;
+}
+
+main .our__work {
+    text-align: left;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.work__title {
+    padding-left: 100px;
+}
+
+.our__work img {
+    height: 400px;
+    width: 400px;
+    padding: 25px 65px 70px 0;
+}
+
+.work__images {
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-between;
 }
