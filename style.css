@@ -46,3 +46,37 @@ main .slogan {
     height: 720px;
     width: auto;
 }
+
+main .our__services {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.services__title {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.service__cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo__cards {
+    height: 327px;
+    width: auto;
+}
+
+.name__cards {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.cards__text {
+    font-size: 16px;
+}
+
+.more__information {
+    font-weight: bold;
+    font-size: 48px;
+}
