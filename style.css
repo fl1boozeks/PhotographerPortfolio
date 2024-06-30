@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.logo__header {
+    background-color: #FFFFFF;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__menu li {
+    font-weight: bold;
+    font-size: 18px;
+    list-style: none;
+    display: inline;
+    padding: 60px;
+}
+
+.section__menu a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.section__menu a:hover {
+    color: #7A7A7A;
+}
+
+main .slogan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.slogan__title {
+    margin-left: 250px;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.camera__man {
+    height: 720px;
+    width: auto;
+}
