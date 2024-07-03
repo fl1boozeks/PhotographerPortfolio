@@ -3,9 +3,13 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 .logo__header {
     background-color: #FFFFFF;
-    padding: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,4 +133,48 @@ main .our__work {
     display: flex;
     padding-left: 100px;
     justify-content: space-between;
+}
+
+.question {
+    text-align: center;
+}
+
+.question__title {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.question__text {
+    font-size: 24px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 550px 80px 550px;
+}
+
+input {
+    border: 5px solid black;
+    width: 360px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+button {
+    border: 5px solid black;
+    border-radius: 50px;
+    width: 400px;
+    height: 60px;
+    font-size: 18px;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7A7A7A;
+    color: white;
 }
